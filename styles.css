@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(235, 239, 243);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ccc;
+}
+
+header .titulos {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+aside {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#temas ul {
+    padding: 0;
+    list-style: none;
+}
+
+#temas ul li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#temas ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+#temas ul li:hover {
+    background-color: #add8e6; /* Azul cielo claro */
+}
+
+footer {
+    background-color: #007BFF; /* Azul claro oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #0056b3; /* Azul más oscuro para el borde superior */
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff; /* Borde blanco para la imagen */
+}
+
+.informacion-contacto {
+    font-size: 18px;
+    color: #f1f1f1;
+}
